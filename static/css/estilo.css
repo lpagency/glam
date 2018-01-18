@@ -18,7 +18,7 @@ html,body
 
 .banner-one{
     /* height: 491px; */
-    width: 87%;
+    width: 87% !important;
     object-fit: contain;
     /* margin-top: 17px; */
     background-position: center;
