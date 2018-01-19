@@ -9,15 +9,15 @@
 {% end %}
 
 {% block css %}
-  <link rel="stylesheet" href="{{ site_base }}/static/js/OwlCarousel2-2.2.1/dist/assets/owl.carousel.min.css">
-  <link rel="stylesheet" href="{{ site_base }}/static/js/OwlCarousel2-2.2.1/dist/assets/owl.theme.default.min.css">
+  <link rel="stylesheet" type="text/css" href="{{ site_base }}/static/js/slick-1.8.0/slick/slick.css"/>
+  <link rel="stylesheet" type="text/css" href="{{ site_base }}/static/js/slick-1.8.0/slick/slick-theme.css"/>
 {% end %}
 
 {% block javascript %}
 
 <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCypftBmBdQmGctgOOdPcJ_0JiNNzp3dGQ"></script>
 <script type="text/javascript" src="{{site_base}}/static/js/map.home.js"></script>
-<script src="{{ site_base }}/static/js/OwlCarousel2-2.2.1/dist/owl.carousel.min.js"></script>
+<script type="text/javascript" src="{{ site_base }}/static/js/slick-1.8.0/slick/slick.min.js"></script>
 <script type="text/javascript">
 
     //Expresión para validar un correo electrónico
@@ -118,21 +118,13 @@
 <script type="text/javascript">
   $(document).ready(function()
   {
-    var owl = $('.owl-carousel');
-    owl.owlCarousel({
-      items:1,
-      loop:true,
-      autoplay:true,
-      autoplayTimeout:5000,
-      autoplayHoverPause:true
-    });
-    $('.play').on('click',function()
-    {
-      owl.trigger('play.owl.autoplay',[5000])
-    });
-    $('.stop').on('click',function()
-    {
-      owl.trigger('stop.owl.autoplay')
+    $('.owl-carousel').slick({
+      slidesToShow: 1,
+      slidesToScroll: 1,
+      autoplay: true,
+      autoplaySpeed: 2000,
+      prevArrow: "<img src='https://84static.loadingplay.com/static/images/93edd5101d594e898df31b6bd06aa953_iconiosarrowback_.png' class='slider-flecha slider-flecha-prev'>",
+      nextArrow: "<img src='https://84static.loadingplay.com/static/images/6c0012f7461ab32603dd838e5835f350_iconiosarrowback.png' class='slider-flecha slider-flecha-next'>"
     });
   });
 </script>
@@ -150,7 +142,7 @@
 <section> 
   <div class="container">
     <div class="owl-carousel" align="center">
-      <div class="" style="position:relative;">
+      <div class="" style="position:relative; margin-bottom: 45px;">
         {% if is_admin %}
           <div class="image-upload lapiz visible-movil ban-lapiz" style="position: relative;">
             <label for="img_met_banner_1">
@@ -164,7 +156,7 @@
         </div>
       </div>
 
-      <div class="" style="position:relative;">
+      <div class="" style="position:relative; margin-bottom: 45px;">
         {% if is_admin %}
           <div class="image-upload lapiz visible-movil ban-lapiz" style="position: relative;">
             <label for="img_met_banner_2">
@@ -178,7 +170,7 @@
         </div>
       </div>
 
-      <div class="" style="position:relative;">
+      <div class="" style="position:relative; margin-bottom: 45px;">
         {% if is_admin %}
           <div class="image-upload lapiz visible-movil ban-lapiz" style="position: relative;">
             <label for="img_met_banner_3">
