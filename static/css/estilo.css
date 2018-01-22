@@ -30,6 +30,7 @@ html,body
 
 .mr{
     margin-bottom: 10%;
+    margin-left: 8.3%;
 }
 
 .btn-map{
@@ -63,6 +64,9 @@ html,body
 }
 
 .text-1{
+    left: -6px;
+    width: 90%;
+    position: relative;
     text-align: left;
     color: #706F71;
     font-family: 'Roboto', sans-serif;
@@ -219,7 +223,7 @@ hr.der{
     top: -56px;
     position: relative;
     float: right;
-    left: -132px;
+    left: -120px;
 }
 
 .fondo-dos{
