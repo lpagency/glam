@@ -37,7 +37,7 @@ html,body
 .slider-flecha-prev{
     width: 1%;
     position: relative;
-    top: 200px;
+    top: 150px;
     z-index: 1;
     right: 489px;
 }
