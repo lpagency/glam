@@ -446,9 +446,31 @@ hr.der {
 .slick-slider { display: table; table-layout: fixed; width: 100%; }
 
 hr.der{
-     width: 69%;
-    left: -69px;
+width: 67%;
+    left: -75px;
     top: -59px;
+}
+
+.text-div {
+    margin-top: 80px;
+}
+
+.banner-div{
+    margin-left: 0px;
+}
+
+.text-1{
+    width: 72%;
+}
+
+.mr{
+    margin-left: 0%;
+    width: 80%;
+}
+
+.btn-map{
+    margin-left: 0px;
+    margin-bottom: 30px;
 }
 
 hr{
