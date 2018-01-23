@@ -431,11 +431,11 @@ hr{
     top: -98px;
 }
 
-    .banner-one {
+/*    .banner-one {
         height: inherit !important;
         object-fit: contain !important;
         margin-bottom: -30px;
-    }
+    }*/
 
     .owl-carousel{
         margin-bottom: -30px;
