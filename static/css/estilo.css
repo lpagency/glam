@@ -415,6 +415,8 @@ hr.der {
     width: 100%;
 }
 
+.slick-slider { display: table; table-layout: fixed; width: 100%; }
+
 hr.der{
      width: 69%;
     left: -69px;
