@@ -430,6 +430,11 @@ hr{
     .banner-one {
         height: inherit !important;
         object-fit: contain !important;
+        margin-bottom: -30px;
+    }
+
+    .owl-carousel{
+        margin-bottom: -30px;
     }
 
 .contact-add-form {
