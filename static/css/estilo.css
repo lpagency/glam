@@ -24,6 +24,34 @@ html,body
     background-position: center;
 }
 
+.cont{
+    height: 317px;
+    width: 89.5%;
+}
+
+.cont-s{
+    height: 317px;
+    margin-top: 30px;
+}
+
+.flecha{
+    top: 145px;
+    position: relative;
+}
+
+.car-inn{
+    height: 317px;
+    width: 101.5%;
+}
+
+.in-img{
+    height: 317px;
+}
+
+.carousel-control{
+    background-image: none !important;
+}
+
 .text-div{
     margin-top: 30px;
 }
@@ -434,6 +462,13 @@ hr{
         object-fit: contain !important;
         margin-bottom: -30px;
     }
+
+    .cont {
+height: 218px;
+    margin-top: -101px;
+    width: 105.5%;
+    margin-left: -12px;
+}
 
     .owl-carousel{
         margin-bottom: -30px;
