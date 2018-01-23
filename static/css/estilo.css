@@ -67,7 +67,7 @@ html,body
     left: -6px;
     width: 90%;
     position: relative;
-    text-align: left;
+    text-align: center;
     color: #706F71;
     font-family: 'Roboto', sans-serif;
     font-weight: 500;
@@ -427,12 +427,11 @@ hr{
     top: -98px;
 }
 
-.banner-one {
-    width: 92%;
-    height: 544px;
-    object-fit: cover;
-    object-position: 0;
-}
+    .banner-one {
+        height: inherit !important;
+        object-fit: contain !important;
+    }
+
 .contact-add-form {
     left: 6px;
 }
@@ -470,3 +469,4 @@ hr{
         display: none;
     }
 }
+
