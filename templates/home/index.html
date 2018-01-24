@@ -36,7 +36,7 @@
                 var asunto = $("#itComentario").val();
 
                 var error_count = 0;
- 
+
                 // --- Condicionales anidados ----
                 //Si nombre está vacío
                 //Muestra el mensaje
@@ -82,7 +82,7 @@
                 {
                     return false;
                 }
- 
+
             });//click
 
             $(document).on("submit", "#newsletter", function(ev){
@@ -126,7 +126,7 @@
 {% set editabletext = '' %}
 {% end %}
 
-<section> 
+<section>
   <div class="container">
     <!-- ***SLIDER** -->
 <div class="container min cont">
@@ -140,7 +140,7 @@
               <label for="_met_banner_1">
                 <img class="change-image" src="https://7static.loadingplay.com/static/images/ef03c01fe39c6b7d1404e311adfe47ff_btn-edit.png" onmouseover="this.src='https://7static.loadingplay.com/static/images/f2e626ad62e2c957b3708a27e55f4b03_btn-edit-hover.png';" onmouseout="this.src='https://7static.loadingplay.com/static/images/ef03c01fe39c6b7d1404e311adfe47ff_btn-edit.png'">
               </label>
-              <input type="file" class="editableimage" image-id="{{ site.name }}__met_banner_1" name="image" id="_met_banner_1" >
+              <input type="file" class="editableimage" image-id="{{ site.name }}_met_banner_1" name="image" id="_met_banner_1" >
             </div>
           {% end %}
         </div>
@@ -167,7 +167,6 @@
             </div>
           {% end %}
         </div>
-
       </div>
       <!-- Left and right controls -->
       <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
@@ -194,7 +193,6 @@
               <input type="file" class="editableimage" image-id="{{ site.name }}_met_banner_4" name="image" id="_met_banner_4" >
             </div>
           {% end %}
-        </div>
 
         <!-- **otro** -->
         <div class="mov item" style="background:url('{{ read_image(site.name + '_met_banner_5') }}'); height:100%; width:100%; background-repeat:no-repeat; background-size:contain; background-position:center; " data-img-width="1600" data-img-height="890" data-diff="100">
@@ -236,7 +234,7 @@
 </section>
 
 
-  
+
 
 <section class="formulario">
   <div class="container">
@@ -253,7 +251,7 @@
         </div>
         {% end %}
         <img id="{{ site.name }}_for" src="{{ read_image(site.name + '_for', 1) }}" onload="this.onload='';this.src='{{ read_image(site.name + '_for',500) }}'" class="img-for" alt="item" />
-        
+
       </div>
       <div class="col-md-8">
      <!--  *Mensaje recibido oculto* -->
@@ -297,7 +295,7 @@
                 </div>
                 <span id="helpBlock3" class="hidden help-block help-mail">EMAIL</span>
               </div>
-            </div>  
+            </div>
             <div align="center">
               <div class="form-group">
                 <label class="control-label"></label>
@@ -309,7 +307,7 @@
               <p><button name="submit" id="bEnviar" type="submit" class="btn btn-store btn-block " data-error-message="Error!" data-sending-message="Sending..." data-ok-message="Email Sent">ENVIAR </button></p>
               <input type="hidden" name="submitted" id="submitted3" value="true">
             </div>
-          </form> 
+          </form>
       </div>
     </div>
   </div>
@@ -377,7 +375,7 @@
             </div>
        </div>
      </div>
- 
+
 </section>
 
 
