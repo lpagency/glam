@@ -534,3 +534,15 @@ height: 218px;
     }
 }
 
+@media screen and (max-width: 500px)
+{
+    .formulario
+    {
+        margin-top: 500px;
+    }
+
+    .in-img
+    {
+        height: 800px;
+    }
+}
