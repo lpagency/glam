@@ -18,10 +18,29 @@
 <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCypftBmBdQmGctgOOdPcJ_0JiNNzp3dGQ"></script>
 <script type="text/javascript" src="{{site_base}}/static/js/map.home.js"></script>
 <script type="text/javascript" src="{{ site_base }}/static/js/slick-1.8.0/slick/slick.min.js"></script>
+<script type="text/javascript" src="{{ site_base }}/static/js/bower_components/jquery-touchswipe/jquery.touchSwipe.min.js"></script>
+
 
 <script type="text/javascript">
   $(window).on('load',function(){
     $('#modal-desc').modal('show');
+  });
+</script>
+
+<script type="text/javascript">
+  $(document).ready(function()
+  {
+    $(".carousel").swipe({
+
+    swipe: function(event, direction, distance, duration, fingerCount, fingerData) {
+
+      if (direction == 'left') $(this).carousel('next');
+      if (direction == 'right') $(this).carousel('prev');
+
+    },
+    allowPageScroll:"vertical"
+
+  });
   });
 </script>
 
