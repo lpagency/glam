@@ -566,4 +566,9 @@ height: 218px;
     {
         height: 800px;
     }
+
+    .carousel-control{
+        height: 700px;
+        width: 50%;
+    }
 }
