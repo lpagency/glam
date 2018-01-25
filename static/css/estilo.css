@@ -571,4 +571,17 @@ height: 218px;
         height: 700px;
         width: 50%;
     }
+
+    .flecha{
+        position: relative;
+        top: 400px;
+    }
+
+    .fa-angle-right{
+        left: 85px;
+    }
+
+    .fa-angle-left{
+        right:85px;
+    }
 }
