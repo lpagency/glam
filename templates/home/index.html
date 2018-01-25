@@ -18,6 +18,26 @@
 <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCypftBmBdQmGctgOOdPcJ_0JiNNzp3dGQ"></script>
 <script type="text/javascript" src="{{site_base}}/static/js/map.home.js"></script>
 <script type="text/javascript" src="{{ site_base }}/static/js/slick-1.8.0/slick/slick.min.js"></script>
+
+<script type="text/javascript">
+  $(window).on('load',function(){
+    $('#modal-desc').modal('show');
+  });
+</script>
+
+<script type="text/javascript">
+  $(document).ready(function()
+  {
+    $(document).on("click", ".redirect", function()
+    {
+      setTimeout(function()
+      {
+        window.location.replace("{{ site_base }}/exito");
+      },2000);
+    });
+  });
+</script>
+
 <script type="text/javascript">
 
     //Expresión para validar un correo electrónico
@@ -377,6 +397,25 @@
      </div>
 
 </section>
+
+<!-- Modal -->
+  <div class="modal fade" id="modal-desc" role="dialog">
+    <div class="modal-dialog">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-body">
+          <a href="https://7static.loadingplay.com/static/images/aada3c82c80846d2cc66779d37be6319_CUPONX_OP.png" class="redirect" download>
+            <img src="https://7static.loadingplay.com/static/images/aada3c82c80846d2cc66779d37be6319_CUPONX_OP.png" style="width: 100%">
+          </a>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Cerrar</button>
+        </div>
+      </div>
+      
+    </div>
+  </div>
 
 
 {% include '../home/footer.html' %}
