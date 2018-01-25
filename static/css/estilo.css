@@ -16,6 +16,27 @@ html,body
 
 }
 
+.success{
+    margin-top: 50px;
+    min-height: 410px;
+}
+
+.success-2{
+    margin-top: 50px;
+    text-align: center;
+}
+
+.boton-success{
+    color: black;
+    border: solid 1px;
+    padding: 20px;
+}
+
+.success-text{
+    font-size: 30px;
+    font-weight: 400;
+}
+
 .banner-one{
     /* height: 491px; */
     width: 87% !important;
