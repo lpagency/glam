@@ -26,6 +26,10 @@ html,body
     text-align: center;
 }
 
+.col-desc{
+    min-height: 350px;
+}
+
 .boton-success{
     color: black;
     border: solid 1px;
@@ -560,6 +564,10 @@ height: 218px;
     .formulario
     {
         margin-top: 500px;
+    }
+
+    .col-desc{
+        min-height: inherit;
     }
 
     .in-img
