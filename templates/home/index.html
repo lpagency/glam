@@ -48,6 +48,13 @@
 <script type="text/javascript">
   $(document).ready(function()
   {
+    $(".href").children().find("a").attr("target", "_blank");
+  });
+</script>
+
+<script type="text/javascript">
+  $(document).ready(function()
+  {
     $(document).on("click", ".redirect", function()
     {
       setTimeout(function()
@@ -375,14 +382,14 @@
                  <div class="{{editabletext}} title-text" text-id="{{ site.name + 'text_index_title' }}">{{ read_text(site.name +  'text_index_title') }}</div>
                <div class="{{editabletext}} text-edit" text-id="{{ site.name + 'text_edit_1' }}">{{ read_text(site.name +  'text_edit_1') }}</div>
                <div class="{{editabletext}} text-edit" text-id="{{ site.name + 'text_edit_2' }}">{{ read_text(site.name +  'text_edit_2') }}</div>
-               <div class="{{editabletext}} text-edit" text-id="{{ site.name + 'text_edit_3' }}">{{ read_text(site.name +  'text_edit_3') }}</div>
+               <div class="{{editabletext}} text-edit href" text-id="{{ site.name + 'text_edit_3' }}">{{ read_text(site.name +  'text_edit_3') }}</div>
                </div>
-               <a id="{{ site.name + '_index_1' }}" href="{{ read_link(site.name + '_index_1') }}">
+               <!-- <a id="{{ site.name + '_index_1' }}" href="{{ read_link(site.name + '_index_1') }}">
                   <div class="btn-map col-md-9">VER EN MAPA</div>
-               </a>
-               {% if is_admin %}
+               </a> -->
+               <!-- {% if is_admin %}
                   <img class= "change-image editablelink" link-id="{{ site.name + '_index_1' }}" content="{{ read_link(site.name + '_index_1') }}" src="{{ site_base }}/static/img/link.png" onmouseover="this.src='{{ site_base }}/static/img/link.png';" onmouseout="this.src='{{ site_base }}/static/img/link.png';">
-               {% end %}
+               {% end %} -->
              </div>
              <div class="col-md-4">
                <div class="col-desc">
@@ -391,12 +398,12 @@
                <div class="{{editabletext}} text-edit" text-id="{{ site.name + 'text_edit_7' }}">{{ read_text(site.name +  'text_edit_7') }}</div>
                <div class="{{editabletext}} text-edit" text-id="{{ site.name + 'text_edit_8' }}">{{ read_text(site.name +  'text_edit_8') }}</div>
                </div>
-               <a id="{{ site.name + '_index_2' }}" href="{{ read_link(site.name + '_index_2') }}">
+               <!-- <a id="{{ site.name + '_index_2' }}" href="{{ read_link(site.name + '_index_2') }}">
                 <div class="btn-map col-md-9">VER EN MAPA</div>
-               </a>
-               {% if is_admin %}
+               </a> -->
+               <!-- {% if is_admin %}
                 <img class= "change-image editablelink" link-id="{{ site.name + '_index_2' }}" content="{{ read_link(site.name + '_index_2') }}" src="{{ site_base }}/static/img/link.png" onmouseover="this.src='{{ site_base }}/static/img/link.png';" onmouseout="this.src='{{ site_base }}/static/img/link.png';">
-               {% end %}
+               {% end %} -->
              </div>
              <div class="col-md-4">
                <div class="col-desc">
@@ -405,12 +412,12 @@
                <div class="{{editabletext}} text-edit" text-id="{{ site.name + 'text_edit_12' }}">{{ read_text(site.name +  'text_edit_12') }}</div>
                <div class="{{editabletext}} text-edit" text-id="{{ site.name + 'text_edit_13' }}">{{ read_text(site.name +  'text_edit_13') }}</div>
                </div>
-               <a id="{{ site.name + '_index_3' }}" href="{{ read_link(site.name + '_index_3') }}">
+               <!-- <a id="{{ site.name + '_index_3' }}" href="{{ read_link(site.name + '_index_3') }}">
                 <div class="btn-map col-md-9">VER EN MAPA</div>
-               </a>
-               {% if is_admin %}
+               </a> -->
+               <!-- {% if is_admin %}
                 <img class= "change-image editablelink" link-id="{{ site.name + '_index_3' }}" content="{{ read_link(site.name + '_index_3') }}" src="{{ site_base }}/static/img/link.png" onmouseover="this.src='{{ site_base }}/static/img/link.png';" onmouseout="this.src='{{ site_base }}/static/img/link.png';">
-               {% end %}
+               {% end %} -->
              </div>
             </div>
        </div>
