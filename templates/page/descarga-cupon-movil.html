@@ -1,0 +1,24 @@
+{% extends "../base.html" %}
+
+{% block title %}
+{{ site.name }}
+{% end %}
+
+{% if is_admin %} 
+{% set editabletext = 'editabletext' %} 
+{% else %} 
+{% set editabletext = '' %} 
+{% end %}
+{% block body %}
+	<div class="col-xs-12">
+		{% if is_admin %}
+			<div class="image-upload lapiz visible-movil">
+				<label for="img_side_banner2_1">
+					<img class="change-image" src="https://7static.loadingplay.com/static/images/ef03c01fe39c6b7d1404e311adfe47ff_btn-edit.png" onmouseover="this.src='https://7static.loadingplay.com/static/images/f2e626ad62e2c957b3708a27e55f4b03_btn-edit-hover.png';" onmouseout="this.src='https://7static.loadingplay.com/static/images/ef03c01fe39c6b7d1404e311adfe47ff_btn-edit.png'" />
+				</label>
+				<input type="file" class="editableimage" image-id="{{ site.name }}side_banner2_1" name="image" id="img_side_banner2_1"/>
+			</div>
+		{% end %}
+		<img id="{{ site.name }}side_banner2_1" src="{{ read_image(site.name + 'side_banner2_1', 1) }}" onload="this.onload='';this.src='{{ read_image(site.name + 'side_banner2_1',) }}'" alt="item" class="image" style="width: 100%;">
+	</div>
+{% end %}
