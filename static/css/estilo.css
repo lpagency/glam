@@ -1,92 +1,128 @@
-body{
+body
+{
     overflow-x: hidden;
     font-family: 'Roboto', sans-serif;
     font-weight: 300;
     -webkit-font-smoothing: antialiased !important;
     -webkit-overflow-scrolling: touch;
-
 }
 
-html,body
+html,
+body
 {
     width: 100%;
     height: 100%;
     margin: 0px;
     padding: 0px;
-
 }
 
-.success{
+.carousel-background
+{
+    height: 300px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+.carousel-background-mobile
+{
+    height: 800px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+.form-container
+{
+    margin-top: 40px;
+}
+
+.success
+{
     margin-top: 50px;
     min-height: 410px;
 }
 
-.success-2{
+.success-2
+{
     margin-top: 50px;
     text-align: center;
 }
 
-.col-desc{
+.col-desc
+{
     min-height: 350px;
 }
 
-.boton-success{
+.boton-success
+{
     color: black;
     border: solid 1px;
     padding: 20px;
 }
 
-.success-text{
+.success-text
+{
     font-size: 30px;
     font-weight: 400;
 }
 
-.banner-one{
-    /* height: 491px; */
+.banner-one
+{
     width: 87% !important;
     object-fit: contain;
-    /* margin-top: 17px; */
     background-position: center;
 }
 
-.cont{
+.cont
+{
     height: 317px;
     width: 89.5%;
 }
 
-.cont-s{
+.cont-s
+{
     height: 317px;
     margin-top: 30px;
 }
 
-.flecha{
+.flecha
+{
     top: 145px;
     position: relative;
 }
 
-.car-inn{
+.car-inn
+{
     height: 317px;
     width: 101.5%;
 }
 
-.in-img{
+.in-img
+{
     height: 317px;
 }
 
-.carousel-control{
+.carousel-control
+{
     background-image: none !important;
 }
 
-.text-div{
+.text-div
+{
     margin-top: 30px;
 }
 
-.mr{
+.mr
+{
     margin-bottom: 10%;
     margin-left: 8.3%;
 }
 
-.btn-map{
+.btn-map
+{
     margin-top: 20px;
     border: none;
     background-color: #E2314D;
@@ -100,23 +136,27 @@ html,body
     margin-left: 37px;
 }
 
-.banner-div{
+.banner-div
+{
     margin-left: 9.5%;
 }
 
-.title-text{
+.title-text
+{
     color: #E2314D;
     font-size: 25px;
     font-weight: 600;
 }
 
-.text-edit{
+.text-edit
+{
     font-size: 17px;
     color: #706F71;
     font-weight: 400;
 }
 
-.text-1{
+.text-1
+{
     left: -6px;
     width: 90%;
     position: relative;
@@ -127,17 +167,20 @@ html,body
     font-size: 18px;
 }
 
-.slick-prev {
+.slick-prev
+{
     left: 74px !important;
     z-index: 1 !important;
 }
 
-.slick-next {
+.slick-next
+{
     right: 74px !important;
     z-index: 1 !important;
 }
 
-.slider-flecha-prev{
+.slider-flecha-prev
+{
     width: 1%;
     position: relative;
     top: 150px;
@@ -145,8 +188,8 @@ html,body
     right: 489px;
 }
 
-
-.slider-flecha-next{
+.slider-flecha-next
+{
     position: relative;
     width: 1%;
     z-index: 1;
@@ -154,21 +197,23 @@ html,body
     left: 489px;
 }
 
-a:hover{  
+a:hover
+{
     color: black;
     text-decoration: none;
 }
 
-.img-for{
+.img-for
+{
     width: 93%;
     object-fit: cover;
     position: relative;
     height: 455px;
     left: 34px;
-   
 }
 
-.fondo-for{
+.fondo-for
+{
     background-color: #E2314D;
     height: 455px;
     position: relative;
@@ -176,7 +221,8 @@ a:hover{
     left: -27px;
 }
 
-.texto-for{
+.texto-for
+{
     text-align: left;
     color: white;
     font-size: 56px;
@@ -186,11 +232,11 @@ a:hover{
     transform: scaleY(2.0);
     letter-spacing: 2px;
     left: 59px;
-    /* transform: scaleX(1.5); */
     margin-bottom: -18px;
 }
 
-.texto-for-2{
+.texto-for-2
+{
     text-align: left;
     color: white;
     font-size: 21px;
@@ -204,13 +250,14 @@ a:hover{
     width: 62%;
 }
 
-
-.form-group {
+.form-group
+{
     margin-bottom: 15px;
     width: 94%;
 }
 
-.form-control{
+.form-control
+{
     border-radius: 0px;
     text-align: center;
     letter-spacing: 4px;
@@ -221,20 +268,23 @@ a:hover{
     height: 33px;
 }
 
-.contact-add-form{
+.contact-add-form
+{
     position: relative;
     top: 68px;
     left: 48px;
 }
 
-.form-control.com{
+.form-control.com
+{
     width: 79%;
     left: -56px;
     position: relative;
 }
 
-.visit{
-       text-align: center;
+.visit
+{
+    text-align: center;
     font-size: 35px;
     font-weight: 900;
     letter-spacing: 0px;
@@ -243,7 +293,8 @@ a:hover{
     margin-top: 56px;
 }
 
-.btn-block {
+.btn-block
+{
     display: block;
     width: 13%;
     position: relative;
@@ -256,7 +307,8 @@ a:hover{
     font-size: 17px;
 }
 
-hr{
+hr
+{
     margin-top: 20px;
     margin-bottom: 13px;
     border: 0;
@@ -267,7 +319,9 @@ hr{
     float: left;
     left: 122px;
 }
-hr.der{
+
+hr.der
+{
     margin-top: 20px;
     margin-bottom: 13px;
     border: 0;
@@ -279,7 +333,8 @@ hr.der{
     left: -120px;
 }
 
-.fondo-dos{
+.fondo-dos
+{
     background-color: #E2314D;
     height: 455px;
     position: relative;
@@ -287,7 +342,8 @@ hr.der{
     left: -27px;
 }
 
-.texto-edi{
+.texto-edi
+{
     color: white;
     font-size: 19px;
     font-weight: 600;
@@ -297,7 +353,8 @@ hr.der{
     letter-spacing: 0px;
 }
 
-.img-sonido{
+.img-sonido
+{
     float: left;
     position: relative;
     left: 95px;
@@ -308,7 +365,9 @@ hr.der{
     border-radius: 30px;
     display: none;
 }
-.img-no-sonido{
+
+.img-no-sonido
+{
     float: left;
     position: relative;
     left: 95px;
@@ -322,224 +381,284 @@ hr.der{
 }
 
 /*----------------responsive----------*/
+@media (max-width: 1199px)
+{
+    .fondo-for
+    {
+        left: -43px;
+        width: 102%;
+    }
 
-@media (max-width: 1199px){
-    .fondo-for {
-     left: -43px;
-     width: 102%;
-}
-.img-for {
-    width: 92%;
-    left: 18px;
-}
-.texto-for-2 {
-    top: 52px;
-    font-weight: 800;
-    letter-spacing: 2px;
-    left: 8px;
-    line-height: 14px;
-    width: 62%;
-    font-size: 18px;
-}
-.texto-for {
-    font-size: 48px;
-    font-weight: 900;
-    transform: scaleY(2.0);
-    letter-spacing: 2px;
-    left: 59px;
+    .img-for
+    {
+        width: 92%;
+        left: 18px;
+    }
+
+    .texto-for-2
+    {
+        top: 52px;
+        font-weight: 800;
+        letter-spacing: 2px;
+        left: 8px;
+        line-height: 14px;
+        width: 62%;
+        font-size: 18px;
+    }
+
+    .texto-for
+    {
+        font-size: 48px;
+        font-weight: 900;
+        transform: scaleY(2.0);
+        letter-spacing: 2px;
+        left: 59px;
+    }
+
+    .form-control.com
+    {
+        width: 78%;
+        left: -50px;
+        position: relative;
+    }
+
+    hr
+    {
+        left: 75px;
+    }
+
+    hr.der
+    {
+        left: -65px;
+    }
+
+    .btn-block
+    {
+        left: 126px;
+    }
+
+    .fondo-dos
+    {
+        width: 99%;
+        left: -27px;
+    }
 }
 
-.form-control.com {
-    width: 78%;
-    left: -50px;
-    position: relative;
-}
-hr {
-    left: 75px;
-}
-hr.der {
-    left: -65px;
-}
-.btn-block {
-    left: 126px;
-}
-.fondo-dos {
-    width: 99%;
-    left: -27px;
+@media (max-width: 1130px)
+{
+    .visit
+    {
+        font-size: 39px;
+    }
 }
 
-}
-
-@media (max-width: 1130px){
-    .visit {
-  font-size: 39px;
-}
-
-}
-
-@media (max-width: 1060px){
-    .visit{
+@media (max-width: 1060px)
+{
+    .visit
+    {
         top: -13px;
         position: relative;
         font-size: 34px;
     }
 }
 
-@media (max-width: 991px){
-.img-for {
-    width: 102%;
-    left: -5px;
-}
-.fondo-for {
-    left: -6px;
-    width: 102%;
-    height: 424px;
-}
-.texto-for{
+@media (max-width: 991px)
+{
+    .img-for
+    {
+        width: 102%;
+        left: -5px;
+    }
+
+    .fondo-for
+    {
+        left: -6px;
+        width: 102%;
+        height: 424px;
+    }
+
+    .texto-for
+    {
         margin-bottom: -40px;
-}
-.texto-for-2 {
-    top: 26px;
-    font-weight: 800;
-    letter-spacing: 2px;
-    left: 157px;
-    line-height: 16px;
-    width: 28%;
-    font-size: 20px;
+    }
+
+    .texto-for-2
+    {
+        top: 26px;
+        font-weight: 800;
+        letter-spacing: 2px;
+        left: 157px;
+        line-height: 16px;
+        width: 28%;
+        font-size: 20px;
+    }
+
+    .form-control.com
+    {
+        width: 79%;
+        left: -57px;
+        position: relative;
+    }
+
+    .visit
+    {
+        font-size: 24px;
+    }
+
+    .banner-one
+    {
+        width: 93%;
+    }
+
+    .btn-block
+    {
+        left: 149px;
+    }
+
+    .fondo-dos
+    {
+        width: 102%;
+        left: -5px;
+    }
 }
 
-.form-control.com {
-    width: 79%;
-    left: -57px;
-    position: relative;
-}
-
-.visit{
-    font-size: 24px;
-}
-
-.banner-one {
-    width: 93%;
-}
-
-.btn-block {
-    left: 149px;
-}
-
-.fondo-dos {
-    width: 102%;
-    left: -5px;
-}
-
-}
-
-@media (max-width: 828px){
-    hr{
+@media (max-width: 828px)
+{
+    hr
+    {
         left: 58px;
     }
 
-    hr.der{
+    hr.der
+    {
         left: -55px;
     }
 }
 
-@media screen and (max-width: 700px){
-    .img-for {
-    width: 108%;
-    left: -15px;
-}
+@media screen and (max-width: 700px)
+{
+    .img-for
+    {
+        width: 108%;
+        left: -15px;
+    }
 
-.fondo-for {
-    left: -14px;
-    width: 108%;
-    height: 495px
-}
-.texto-for {
-    left: 33px;
-}
-.texto-for-2 {
-    font-size: 15px;
-    position: relative;
-    top: 108px;
-    letter-spacing: 3px;
-    left: 35px;
-    line-height: 14px;
-    margin-bottom: 67px;
-    width: 100%;
-}
+    .fondo-for
+    {
+        left: -14px;
+        width: 108%;
+        height: 495px
+    }
 
-.slick-slider { display: table; table-layout: fixed; width: 100%; }
+    .texto-for
+    {
+        left: 33px;
+    }
 
-hr.der{
-width: 67%;
-    left: -75px;
-    top: -59px;
-}
+    .texto-for-2
+    {
+        font-size: 15px;
+        position: relative;
+        top: 108px;
+        letter-spacing: 3px;
+        left: 35px;
+        line-height: 14px;
+        margin-bottom: 67px;
+        width: 100%;
+    }
 
-.text-div {
-    margin-top: 80px;
-}
+    .slick-slider
+    {
+        display: table;
+        table-layout: fixed;
+        width: 100%;
+    }
 
-.banner-div{
-    margin-left: 0px;
-}
+    hr.der
+    {
+        width: 67%;
+        left: -75px;
+        top: -59px;
+    }
 
-.text-1{
-    width: 72%;
-}
+    .text-div
+    {
+        margin-top: 80px;
+    }
 
-.mr{
-    margin-left: 0%;
-    width: 80%;
-}
+    .banner-div
+    {
+        margin-left: 0px;
+    }
 
-.btn-map{
-    margin-left: 0px;
-    margin-bottom: 30px;
-}
+    .text-1
+    {
+        width: 72%;
+    }
 
-hr{
-    width: 67%;
-    left: 58px;
-    top: -98px;
-}
+    .mr
+    {
+        margin-left: 0%;
+        width: 80%;
+    }
 
-    .banner-one {
+    .btn-map
+    {
+        margin-left: 0px;
+        margin-bottom: 30px;
+    }
+
+    hr
+    {
+        width: 67%;
+        left: 58px;
+        top: -98px;
+    }
+
+    .banner-one
+    {
         height: inherit !important;
         object-fit: contain !important;
         margin-bottom: -30px;
     }
 
-    .cont {
-height: 218px;
-    margin-top: -101px;
-    width: 105.5%;
-    margin-left: -12px;
-}
+    .cont
+    {
+        height: 218px;
+        margin-top: -101px;
+        width: 105.5%;
+        margin-left: -12px;
+    }
 
-    .owl-carousel{
+    .owl-carousel
+    {
         margin-bottom: -30px;
     }
 
-.contact-add-form {
-    left: 6px;
-}
+    .contact-add-form
+    {
+        left: 6px;
+    }
 
-.form-control.com {
-    width: 91%;
-    left: -1px;
-    position: relative;
-}
+    .form-control.com
+    {
+        width: 91%;
+        left: -1px;
+        position: relative;
+    }
 
-.btn-block {
-    width: 22%;
-    top: 6px;
-    left: 115px;
-}
-.fondo-dos {
-    width: 107%;
-    left: -13px;
-}
+    .btn-block
+    {
+        width: 22%;
+        top: 6px;
+        left: 115px;
+    }
+
+    .fondo-dos
+    {
+        width: 107%;
+        left: -13px;
+    }
 }
 
 
@@ -566,7 +685,8 @@ height: 218px;
         margin-top: 500px;
     }
 
-    .col-desc{
+    .col-desc
+    {
         min-height: inherit;
     }
 
@@ -575,21 +695,25 @@ height: 218px;
         height: 800px;
     }
 
-    .carousel-control{
+    .carousel-control
+    {
         height: 700px;
         width: 40%;
     }
 
-    .flecha{
+    .flecha
+    {
         position: relative;
         top: 400px;
     }
 
-    .fa-angle-right{
+    .fa-angle-right
+    {
         left: 85px;
     }
 
-    .fa-angle-left{
-        right:85px;
+    .fa-angle-left
+    {
+        right: 85px;
     }
 }
