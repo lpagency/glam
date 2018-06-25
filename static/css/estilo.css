@@ -29,9 +29,8 @@ body
 {
     height: 800px;
     width: 100%;
-    background-repeat: no-repeat;
-    background-size: contain!important;
-    background-position: center;
+    background-repeat: no-repeat !important;
+    background-size: contain !important;
 }
 
 .form-container
