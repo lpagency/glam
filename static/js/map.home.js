@@ -3,7 +3,7 @@ $(document).ready(function()
     // $('.slider').tinycarousel();
     var base_url = 'https://apibodegas.loadingplay.com/',
     checkout_url = 'https://pay.loadingplay.com/';
-    var app_public = 19;
+    var app_public = 'glam';
 
     function isLocalHost() {
         return document.location.href.indexOf('localhost') != -1;
@@ -14,17 +14,17 @@ $(document).ready(function()
     }
 
     // configure for each enviroment
-    if ( isLocalHost() ) 
+    if ( isLocalHost() )
     {
         base_url = 'https://apibodegas.loadingplay.com/';
         checkout_url = 'https://pay.loadingplay.com/';
-        app_public = 19;
-    } 
-    else if ( isDevelopment() ) 
+        app_public = 'glam';
+    }
+    else if ( isDevelopment() )
     {
         base_url = 'https://apibodegas.loadingplay.com/';
         checkout_url = 'https://pay.loadingplay.com/';
-        app_public = 19;
+        app_public = 'glam';
     }
 
     var drawPoints = function(map, places)
@@ -41,8 +41,8 @@ $(document).ready(function()
             });
 
             google.maps.event.addListener(
-                marker, 
-                'click', 
+                marker,
+                'click',
                 function()
                 {
                     if(!popup)
